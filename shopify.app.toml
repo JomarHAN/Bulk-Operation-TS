@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "dcdd8a2f43fff15dd50647755bf3dd92"
+name = "Bulk Operation TS"
+handle = "bulk-operation-ts"
+application_url = "https://hdtv-children-renaissance-privacy.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "joel-baby-house.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://hdtv-children-renaissance-privacy.trycloudflare.com/auth/callback",
+  "https://hdtv-children-renaissance-privacy.trycloudflare.com/auth/shopify/callback",
+  "https://hdtv-children-renaissance-privacy.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
