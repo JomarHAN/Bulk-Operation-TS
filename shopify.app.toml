@@ -3,7 +3,7 @@
 client_id = "dcdd8a2f43fff15dd50647755bf3dd92"
 name = "Bulk Operation TS"
 handle = "bulk-operation-ts"
-application_url = "https://hdtv-children-renaissance-privacy.trycloudflare.com"
+application_url = "https://opponent-tom-instances-uses.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://hdtv-children-renaissance-privacy.trycloudflare.com/auth/callback",
-  "https://hdtv-children-renaissance-privacy.trycloudflare.com/auth/shopify/callback",
-  "https://hdtv-children-renaissance-privacy.trycloudflare.com/api/auth/callback"
+  "https://opponent-tom-instances-uses.trycloudflare.com/auth/callback",
+  "https://opponent-tom-instances-uses.trycloudflare.com/auth/shopify/callback",
+  "https://opponent-tom-instances-uses.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
